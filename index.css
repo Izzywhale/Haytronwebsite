@@ -17,4 +17,46 @@
 .category-divisions:hover li div span {
   display: flex;
   background-color: #fff;
+}
+
+.slider {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slider .slider {
+  width: 500%;
+  align-items: center;
+}
+.slider .slide {
+  display: flex;
+}
+.slider .slides input {
+  display: none;
+}
+.slider .slide {
+  width: 100%;
+  transition: 2s;
+}
+.slider .slide .slide img {
+  width: 3000px;
+  height: 600px;
+}
+.slider .navigation-manual {
+  display: flex;
+  justify-content: center;
+  float: right;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  margin-top: -40px;
+}
+.slider .manual-btn {
+  border: 2px solid blue;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.slider :not(:last-child) {
+  margin-right: 10px;
 }/*# sourceMappingURL=index.css.map */
